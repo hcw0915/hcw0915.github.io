@@ -19,10 +19,10 @@
 <body>
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="pictures/logo.jpg" alt="">
+            <img src="pictures/logo_small_back.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,12 +32,25 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">首頁</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">相關連結</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  會員專區
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">會員資料</a></li>
+                  <li><a class="dropdown-item" href="#">修改資料</a></li>
+                  <li><a class="dropdown-item" href="#">訂單查詢</a></li>
+                  <li><a class="dropdown-item" href="#">折價券</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">客服中心</a></li>
+                </ul>
+              </li>
+
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  選單
+                  主要商品
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">主機</a></li>
@@ -48,13 +61,19 @@
                   <li><a class="dropdown-item" href="#">聯絡我們</a></li>
                 </ul>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" color="gray">粉紅泡泡區(規劃中)</a>
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">disabled</a>
               </li>
             </ul>
+
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-dark btn-lg" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -69,10 +88,16 @@
       <div class="container-fluid bg-light p-5">
         <div class="container">
           <!--切分為12份-->
-          <div class="col-md-12">
-            <h1 class="display-4">一個屬於自己的空間</h1>
+          <div class="row">
+            <div class="col-md-4 text-right" > 
+              <img src="pictures\setup4.jpg" class="img-fluid" alt="...">
+            </div>
+            
+          <div class="col-md-8 text-center">
+            <h1 class="display-8">一個屬於自己的空間</h1>
             <p class="lead">將你的想法化做現實</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">點擊進入</a>
+          </div>
           </div>
         </div>
       </div>
@@ -82,67 +107,84 @@
     <section id="second">
       <!--給bootstrap排版用-->
       <div class="container">
-      <div class="row">
+        <div class="row">
           <div class="col-md-8 offset-md-2 text-center">
-            <h3> 內文標題 </h3>
+            <h3>Work From Home</h3>
             <div class="row">
-              <div class="col-md-4 text-center">
-                <img src="pictures/inner.png" alt="">
-                <h5> 123</h5>
+              <!--              
+                <div class="col-md-2 text-center">
+                <img src="pictures/g" alt="">
+                <h5>123</h5>
               </div>
-              <div class="col-md-8 test-left">
-                <p class="lead">內文</p>
-                <p>123</p>
-                <p>1678</p>
-              </div>
+              -->
+              <div class="col-md-12 test-left">
+              <h4>當在家工作成常態，進公司反變為出差！</h4>
+              <h4>世界趨勢逐漸改變現有工作模式</h4>
+              <br>
+              <p>但隨著科技不斷的進步，直播、Podcast 成了新興產業
+                也漸漸取代傳統媒體，既然「家」變成了一個工作室
+                何不自己創造一個像是Google、Meta等大型公司的工作環境?
+                閉上眼，聽覺震撼，視覺繽紛，專屬於你的空間
+                工作順手、休閒放鬆。
+              </p>
+              <p>過去只能DIY，到處比價，還要自己組裝搭配</p>
+              <p>但現在</p>
+              <p>Gaming-Setup可以幫你解決你的困難！</p>
+            </div>
             </div>
           </div>
       </div>
       </div>
     </section>
     
-
-
     <!--相片的區塊-->
     <section id='latest'>       
       <div class="container">
         <div class='row'>
         <div class='col-md-12 text-center'>
-          <h1>相關行程</h1>
+          <h1>STYLE</h1></br>
+
           <div class='row'>
           <!--第一張相片-->
-           <div class='col-md-4 text-left'>
+            <div class='col-md-4 text-left'>
              <div class='outer'>
-               <a href='single.html'>
+                <a href='single.html'>
                  <div class='upper'>
-                 <img src='pictures/inner.png'>
+                 <img src='pictures/setup1.jpg'>
                  </div>
                  <div class='lower'>
-                   <span>可報名</span>
-                   <h4>男：$15000  女：$0</h4>
-                   <h3>狂歡行程 - 七賢路</h3>
-                   <span><i class="fa-solid fa-location-crosshairs"></i> 高雄市楠梓區</span><br>
-                   <span><i class="far fa-clock"></i> Nov 03, 2022 08:00PM</span>
+                   <h5>- 獨立 -</h5>
+                   <p>雙人</p>
+                   <h4>總價 : 30,000 元 (不含電腦及其設備)</h4>
+                   <br>
+                   <h6>部分設備可自由選配</h6>
+                   <br>
+                   <span><i class="fa-solid fa-location-crosshairs"></i> 全台配送、安裝 </span><br>
+                   <span><i class="fa-solid fa-calendar-days"></i> 會員限時優惠中 </span>
                  </div>
-               </a>     
+                </a>     
                </div>
-           </div>
+            </div>
+
            <!--第二張相片-->
             <div class='col-md-4 text-left'>
               <div class='outer'>
                 <a href='single.html'>
                   <div class='upper'>
-                  <img src='pictures/inner.png'>
+                  <img src='pictures/setup2.jpg'>
                   </div>
                   <div class='lower'>
-                    <span>可報名</span>
-                    <h4>男：$15000  女：$0</h4>
-                    <h3>狂歡行程 - 九如路</h3>
-                    <span><i class="fa-solid fa-location-crosshairs"></i> 高雄市楠梓區</span><br>
-                    <span><i class="far fa-clock"></i> Nov 03, 2022 08:00PM</span>
+                    <h5>- 淨白 -</h5>
+                    <p>單人</p>
+                    <h4>總價 : 20,000 元 (不含電腦及其設備)</h4>
+                    <br>
+                    <h6>部分設備可自由選配</h6>
+                    <br>
+                    <span><i class="fa-solid fa-location-crosshairs"></i> 全台配送、安裝 </span><br>
+                    <span><i class="fa-solid fa-calendar-days"></i></i> 會員限時優惠中 </span>
                   </div>
                 </a>     
-                </div>
+              </div>
             </div>
 
             <!--第三張相片-->
@@ -150,18 +192,22 @@
               <div class='outer'>
                 <a href='single.html'>
                   <div class='upper'>
-                  <img src='pictures/inner.png'>
+                  <img src='pictures/setup5.jpg'>
                   </div>
                   <div class='lower'>
-                    <span>可報名</span>
-                    <h4>男：$15000  女：$0</h4>
-                    <h3>狂歡行程 - 九如路</h3>
-                    <span><i class="fa-solid fa-map-location"></i> 高雄市楠梓區</span><br>
-                    <span><i class="far fa-clock"></i> Nov 03, 2022 08:00PM</span>
+                    <h5>- 綠自 -</h5>
+                    <p>單人</p>
+                    <h4>總價 : 30,000 元 (不含電腦及其設備)</h4>
+                    <br>
+                    <h6>部分設備可自由選配</h6>
+                    <br>
+                    <span><i class="fa-solid fa-location-crosshairs"></i> 全台配送、安裝 </span><br>
+                    <span><i class="fa-solid fa-calendar-days"></i></i> 會員限時優惠中 </span>
                   </div>
                 </a>     
-                </div>
+              </div>
             </div>
+
           </div>
         </div>
         </div>    
@@ -174,14 +220,14 @@
       <div class="container">
         <div class='row'>
         <div class='col-md-8 offset-md-2 text-center'>
-          <h3>加入GAMING</h3>
+          <h3>加入GAMING SETUP</h3>
         </div>
         </div>
         <div class='row'>
         <div class='col-md-8 offset-md-2 text-left'>		
-        <p>讓我們有最新優惠立刻通知你！</p>        		  	
+        <p>讓我們有最新產品立刻通知你！</p>        		  	
           <div class="input-group input-group-lg">
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵">
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的信箱">
         </div>
         <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
         </div>
@@ -193,26 +239,31 @@
       <div class="row">
 
         <div class="col-md-4 text-left">
-          <img src="/pictures/logo.jpg" alt="">
-          <p>123</p>
+          <img src="/pictures/Gaming LOGO.png">
         </div>
 
-        <div class="ccol-md4 text-left">
+        <div class="col-md-4 text-left">
+          <h4>Youtuber</h4>
           <ul>
-            <li></li>
-            <li></li>
-          </ul>
-
-          <ul>
-            <li></li>
-            <li></li>
+            <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/c/randomfrankp"> Randomfrankp </a></li>
+            <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/c/TechSource"> TechSource </a></li>
+            <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/c/austinevans"> Austin Evans </a></li>
           </ul>
         </div>
-        
+
+        <div class="col-md-4 text-left">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i> love233031@gmail.com </li>
+            <li><i class="fa-solid fa-phone"></i> 0988249339 </li>
+          </ul>
+        </div>
+
 
 
       </div>
     </div>
   </footer>
+
 </body>
 </html>

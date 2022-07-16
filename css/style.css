@@ -13,10 +13,10 @@ nav li{
 #intro .jumbotron{
 	background: url('../pictures/mainbg.png');
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    height: 70vh;
-    margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 70vh;
+	margin-bottom: 0px;
 }
 
 #intro .jumbotron .container{
@@ -28,14 +28,14 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #df4c49;
+    background-color: #6e6c6c;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
 .btn:hover{
 	opacity:0.8;
-	background-color: #f05f5c!important;
+	background-color: #080808!important;
 }
 #second{
 	padding: 80px 0px;
