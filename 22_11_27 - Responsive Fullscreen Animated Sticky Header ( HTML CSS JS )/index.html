@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Fullscreen Animated Sticky Header</title>
+  </head>
+  <body>
+    <header>
+      <img src="bg.jpg" class="banner" alt="" />
+      <a href="#" class="logo">CHASER. </a>
+
+      <div class="toggle"></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>HIHI</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+        consequatur atque deserunt ipsum obcaecati! Explicabo ut error officiis
+        quod expedita culpa rerum veritatis fugiat nesciunt a? Nemo illo
+        voluptates dicta! Illo, placeat ab similique voluptatum harum sunt
+        maiores ipsum velit tempore vero voluptas provident dolorem libero
+        architecto nesciunt, ex praesentium ducimus beatae. Dolores tenetur
+        numquam assumenda quas magnam, consequuntur aperiam. Itaque molestiae
+        nulla eveniet sapiente facilis magnam quaerat adipisci porro,
+        necessitatibus quas debitis magni suscipit quidem, dolore architecto
+        corrupti, tempore ab! Neque numquam est sint inventore pariatur magni
+        veniam nostrum? Dolore laborum ullam iusto, sapiente est mollitia
+        consectetur ex. Sapiente modi fugit iusto! Vel cupiditate veritatis
+        facere aliquid, iste rem assumenda numquam officiis! Architecto voluptas
+        reiciendis quis numquam! Illo, <br />
+        fugiat. Expedita, porro nobis? Repudiandae eius consequuntur dolor
+        excepturi tenetur repellat fugit tempore quaerat consectetur itaque
+        porro quas, voluptatum nobis architecto aperiam soluta quae? Voluptates
+        ipsum maxime natus soluta iste ratione? Tenetur nemo deleniti aliquam
+        neque sit minima sint tempore, est saepe quis quod quisquam perspiciatis
+        voluptates amet, dolorem ex sequi vero? Voluptatem animi obcaecati enim
+        atque vel, quia labore natus. Debitis, dignissimos quas totam distinctio
+        sint molestiae officiis ex ea aperiam quam earum odit error vel delectus
+        exercitationem. Dolore perferendis repudiandae possimus adipisci,
+        explicabo dolor eligendi asperiores minus facilis consequuntur.
+        Voluptatum aliquid ratione dicta nisi! Eius maxime molestias architecto
+        labore odit saepe in nihil nam delectus non ab quae illum minus,
+        deleniti laboriosam nisi dolorum accusamus <br />
+        et, autem id corporis? Labore obcaecati explicabo vero, quisquam facere
+        tempora voluptatibus error debitis dolore dicta esse ipsa nostrum
+        tempore repudiandae quasi quo qui illo pariatur maiores sed commodi nam!
+        Dolorem placeat nostrum a! Error ex id cupiditate ratione eligendi
+        mollitia voluptas culpa quidem excepturi, nulla perferendis officiis
+        similique a exercitationem aut, dicta ullam illum solum accusantium
+        repellat. Dolor quo saepe aspernatur, ut provident tenetur error, harum
+        ex deleniti ipsam dignissimos? Neque! Provident amet veritatis minus
+        earum corporis adipisci similique, vel saepe iste ex ratione illum
+        inventore aut voluptatem totam voluptate sequi corrupti? Dolores
+        laudantium pariatur corrupti sequi autem unde rerum ut.
+      </p>
+    </section>
+    <script>
+      window.addEventListener('scroll', () => {
+        const header = document.querySelector('header')
+        header.classList.toggle('sticky', window.scrollY > 0)
+      })
+
+      const navigation = document.querySelector('nav')
+      const toggleEle = document.querySelector('.toggle')
+      toggleEle.addEventListener('click', () => {
+        toggleEle.classList.toggle('active')
+        navigation.classList.toggle('active')
+      })
+
+      // 原寫法
+      // document.querySelector('.toggle').onclick = function () {
+      //   this.classList.toggle('active')
+      // }
+    </script>
+  </body>
+</html>

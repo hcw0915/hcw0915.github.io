@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Permanent Marker', cursive;
+  color: #5f5f5f;
+}
+
+.container {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  .computer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    font-size: 4rem;
+
+    .borderComputer {
+      color: #12709b;
+      border: #12709b;
+      border-style: solid;
+      border-radius: 50px;
+    }
+  }
+
+  .middle {
+    .result {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .vs {
+        padding: 30px 0px;
+      }
+      button {
+        background-color: rgba($color: #000000, $alpha: 0.1);
+        color: #000000;
+        font-size: 30px;
+        font-family: '微軟正黑體';
+        font-weight: 800;
+        width: 20vw;
+        height: 5vh;
+        margin: 5px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba($color: #000000, $alpha: 0.3);
+        }
+      }
+    }
+  }
+  .player {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    font-size: 4rem;
+    .borderPlayer {
+      color: #fa8100;
+      border: #fc8200;
+      border-style: solid;
+      border-radius: 50px;
+    }
+  }
+}

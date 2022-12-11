@@ -1,0 +1,45 @@
+p{
+  font-size: 50px;
+  color: black;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+
+}
+
+.background{
+  background-color: rgba(20, 20, 20, 0.5);
+	background-blend-mode: multiply;
+  background-image: url(pictures/840554.png);
+  background-size:cover;
+  background-position: center center;
+}
+
+.question{
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+  background-color: antiquewhite;
+  margin: 100px 100px;
+}
+
+.answer{
+  height: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 245, 233);
+}
+
+.answer::first-letter{
+  font-size: 150%;
+  color: blue;
+}
+
+table{
+  margin: 100px 100px;
+}
+
+
+
