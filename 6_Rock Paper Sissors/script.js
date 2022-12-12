@@ -1,68 +1,68 @@
 // ClassElement
-const computerElement = document.querySelector('.computer');
-const playerElement = document.querySelector('.player');
-const resultElement = document.querySelector('.result');
+const computerElement = document.querySelector('.computer')
+const playerElement = document.querySelector('.player')
+const resultElement = document.querySelector('.result')
 
 // choice
-let computerChoice;
-let playerChoice;
+let computerChoice
+let playerChoice
 // Buttons
-const scissorsElement = document.querySelector('.scissors');
-const rockElement = document.querySelector('.rock');
-const paperElement = document.querySelector('.paper');
-const buttonElement = document.querySelectorAll('button');
+const scissorsElement = document.querySelector('.scissors')
+const rockElement = document.querySelector('.rock')
+const paperElement = document.querySelector('.paper')
+const buttonElement = document.querySelectorAll('button')
 // IMG
-const newImgPlayer = document.createElement('img');
-const newImgComputer = document.createElement('img');
+const newImgPlayer = document.createElement('img')
+const newImgComputer = document.createElement('img')
 // 用數值比較大小
 function computerShuffle() {
-  const array = ['剪刀', '石頭', '布'];
-  let randomNumber = Math.floor(Math.random() * 3);
-  computerChoice = array[randomNumber];
-  return computerChoice;
+  const array = ['剪刀', '石頭', '布']
+  let randomNumber = Math.floor(Math.random() * 3)
+  computerChoice = array[randomNumber]
+  return computerChoice
 }
 
 function display(computerChoice) {
   if (computerChoice === '剪刀') {
-    newImgComputer.src = '/picture/scissors-removebg-reverse.png';
-    newImgComputer.style = 'width:200px;height:250px';
-    computerElement.appendChild(newImgComputer);
+    newImgComputer.src = 'picture/scissors-removebg-reverse.png'
+    newImgComputer.style = 'width:200px;height:250px'
+    computerElement.appendChild(newImgComputer)
   }
   if (computerChoice === '石頭') {
-    newImgComputer.src = '/picture/rock-removebg-reverse.png';
-    newImgComputer.style = 'width:200px;height:250px';
-    computerElement.appendChild(newImgComputer);
+    newImgComputer.src = 'picture/rock-removebg-reverse.png'
+    newImgComputer.style = 'width:200px;height:250px'
+    computerElement.appendChild(newImgComputer)
   }
   if (computerChoice === '布') {
-    newImgComputer.src = '/picture/paper-removebg-reverse.png';
-    newImgComputer.style = 'width:200px;height:250px';
-    computerElement.appendChild(newImgComputer);
+    newImgComputer.src = 'picture/paper-removebg-reverse.png'
+    newImgComputer.style = 'width:200px;height:250px'
+    computerElement.appendChild(newImgComputer)
   }
 }
 
 function getResult(computerChoice, playerChoice) {
   if (computerChoice === playerChoice) {
-    resultElement.innerText = '===';
+    resultElement.innerText = '==='
   }
   if (computerChoice === '石頭' && playerChoice === '剪刀') {
-    resultElement.innerHTML = 'COM WIN!';
+    resultElement.innerHTML = 'COM WIN!'
   }
   if (computerChoice === '石頭' && playerChoice === '布') {
-    resultElement.innerText = 'PLAYER WIN';
+    resultElement.innerText = 'PLAYER WIN'
   }
   if (computerChoice === '剪刀' && playerChoice === '布') {
-    resultElement.innerText = 'COM WIN!';
+    resultElement.innerText = 'COM WIN!'
   }
   if (computerChoice === '剪刀' && playerChoice === '石頭') {
-    resultElement.innerText = 'PLAYER WIN';
+    resultElement.innerText = 'PLAYER WIN'
   }
   if (computerChoice === '布' && playerChoice === '石頭') {
-    resultElement.innerText = 'COM WIN!';
+    resultElement.innerText = 'COM WIN!'
   }
   if (computerChoice === '布' && playerChoice === '剪刀') {
-    resultElement.innerText = 'PLAYER WIN';
+    resultElement.innerText = 'PLAYER WIN'
   }
-  return resultElement;
+  return resultElement
 }
 
 // function winnerPic(resultElement) {
@@ -83,16 +83,16 @@ function getResult(computerChoice, playerChoice) {
 // // 流程
 buttonElement.forEach((button) => {
   button.addEventListener('click', (e) => {
-    playerChoice = button.innerText;
-    newImgPlayer.src = `/picture/${button.className}-removebg-preview.png`;
-    newImgPlayer.style = 'width:200px;height:250px';
-    playerElement.appendChild(newImgPlayer);
+    playerChoice = button.innerText
+    newImgPlayer.src = `picture/${button.className}-removebg-preview.png`
+    newImgPlayer.style = 'width:200px;height:250px'
+    playerElement.appendChild(newImgPlayer)
 
-    computerShuffle();
-    display(computerChoice);
-    getResult(computerChoice, playerChoice);
-  });
-});
+    computerShuffle()
+    display(computerChoice)
+    getResult(computerChoice, playerChoice)
+  })
+})
 
 // 流程
 
