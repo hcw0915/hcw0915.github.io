@@ -3,10 +3,9 @@ title: '個人作品集、簡單履歷'
 disqus: hackmd
 ---
 
-個人作品集、簡單履歷 =)) 
-(更新至 111.11.18 )
+個人作品集、簡單履歷 =))
+(更新至 111.12.13 )
 ===
-
 
 ## :raised_hand_with_fingers_splayed: 簡單摘要
 
@@ -16,26 +15,25 @@ disqus: hackmd
 
 - 22_06_11 - HangMan ( PY )
 - 22_08_23 - First Website ( HTML CSS )
-:nerd_face:  https://hcw0915.github.io/10_First_Website/index.html
+  :nerd_face: https://hcw0915.github.io/10_First_Website/index.html
 - 22_09_06 - Guess Number ( JS )
-:nerd_face:   https://hcw0915.github.io/1_Guess_Number/index.html
+  :nerd_face: https://hcw0915.github.io/1_Guess_Number/index.html
 - 22_09_06 - Password Generator ( JS )
-:nerd_face:   https://hcw0915.github.io/2_Password_Generator/index.html
+  :nerd_face: https://hcw0915.github.io/2_Password_Generator/index.html
 - 22_09_08 - Shopping Cart ( HTML CSS JS )
-:nerd_face:   https://hcw0915.github.io/3_Shopping_Cart/index.html
+  :nerd_face: https://hcw0915.github.io/3_Shopping_Cart/index.html
 - 22_09_08 - Todos ( HTML CSS JS )
-:nerd_face:  https://hcw0915.github.io/4_Todos/index.html
+  :nerd_face: https://hcw0915.github.io/4_Todos/index.html
 - 22_09_19 - Calculator ( HTML CSS )
-:nerd_face:  https://hcw0915.github.io/5_Calculator/index.html
+  :nerd_face: https://hcw0915.github.io/5_Calculator/index.html
 - 22_09_21 - Rock Paper Sissors ( HTML CSS JS )
-:nerd_face:  https://hcw0915.github.io/6_Rock_Paper_Sissors/index.html
+  :nerd_face: https://hcw0915.github.io/6_Rock_Paper_Sissors/index.html
 - 22_11_23 - Pokemon Card Generator ( HTML CSS JS )
-:nerd_face:  https://hcw0915.github.io/7_Pokemon_Card_Generator/index.html
+  :nerd_face: https://hcw0915.github.io/7_Pokemon_Card_Generator/index.html
 - 22_11_27 - Responsive Fullscreen Animated Sticky Header ( HTML CSS JS )
-:nerd_face:  https://hcw0915.github.io/8_Responsive_Fullscreen_Animated_Sticky_Header/index.html
+  :nerd_face: https://hcw0915.github.io/8_Responsive_Fullscreen_Animated_Sticky_Header/index.html
 - 22-11-18 - FE-bilibili ( HTML CSS JS )
-:nerd_face:  https://hcw0915.github.io/9_FE-bilibili/index.html
-
+  :nerd_face: https://hcw0915.github.io/9_FE-bilibili/index.html
 
 ## :hammer_and_wrench: 目前技能
 
@@ -63,7 +61,7 @@ disqus: hackmd
 - 加強 Three.js, Chart.js 運用
 - 深入 python 多線程、多進程、協程、併發等
 
-> 中期目標  :footprints: :footprints: 
+> 中期目標 :footprints: :footprints:
 
 - Docker 容器類基礎實作
 - CI/CD 觀念與實際操作
