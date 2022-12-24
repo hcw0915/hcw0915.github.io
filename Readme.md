@@ -1,6 +1,5 @@
 ---
 title: '個人作品集、簡單履歷'
-disqus: hackmd
 ---
 
 個人作品集、簡單履歷 =))
@@ -9,31 +8,34 @@ disqus: hackmd
 
 ## :raised_hand_with_fingers_splayed: 簡單摘要
 
-此網站僅放置靜態網站(以 HTML, CSS, Vanilla JS)為主的小作品(只有 HangMan 為 PY 檔案)，內容部分參考網路上 Youtuber 的 website clone，另外針對前、後端框架部分，目前以 MS-Azure 作為平台主架設。
+此網站僅放置靜態網站(以 HTML, CSS, Vanilla JS)為主的小作品(只有 TenGames 為 PY 檔案)，內容部分參考網路上 Youtuber 的 website clone，另外針對前、後端框架部分，目前以 MS-Azure 作為平台主架設。
 
 ## :triangular_flag_on_post: 作品清單
 
-- 22_06_11 - HangMan ( PY )
+- 22_06_11 - TenGames ( PY )
+  帳號: 123 密碼: 123
+  進入後，選項輸入 hangman 可以玩隱藏遊戲。
+
 - 22_08_23 - First Website ( HTML CSS )
-  + :nerd_face: https://hcw0915.github.io/10_First_Website/index.html
+  - :nerd_face: https://hcw0915.github.io/10_First_Website/index.html
 - 22_09_06 - Guess Number ( JS )
-  + :nerd_face: https://hcw0915.github.io/01_Guess_Number/index.html
+  - :nerd_face: https://hcw0915.github.io/01_Guess_Number/index.html
 - 22_09_06 - Password Generator ( JS )
-  + :nerd_face: https://hcw0915.github.io/02_Password_Generator/index.html
+  - :nerd_face: https://hcw0915.github.io/02_Password_Generator/index.html
 - 22_09_08 - Shopping Cart ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/03_Shopping_Cart/index.html
+  - :nerd_face: https://hcw0915.github.io/03_Shopping_Cart/index.html
 - 22_09_08 - Todos ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/04_Todos/index.html
+  - :nerd_face: https://hcw0915.github.io/04_Todos/index.html
 - 22_09_19 - Calculator ( HTML CSS )
-  + :nerd_face: https://hcw0915.github.io/05_Calculator/index.html
+  - :nerd_face: https://hcw0915.github.io/05_Calculator/index.html
 - 22_09_21 - Rock Paper Sissors ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/06_Rock_Paper_Sissors/index.html
+  - :nerd_face: https://hcw0915.github.io/06_Rock_Paper_Sissors/index.html
 - 22_11_23 - Pokemon Card Generator ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/07_Pokemon_Card_Generator/index.html
+  - :nerd_face: https://hcw0915.github.io/07_Pokemon_Card_Generator/index.html
 - 22_11_27 - Responsive Fullscreen Animated Sticky Header ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/08_Responsive_Fullscreen_Animated_Sticky_Header/index.html
+  - :nerd_face: https://hcw0915.github.io/08_Responsive_Fullscreen_Animated_Sticky_Header/index.html
 - 22-11-18 - FE-bilibili ( HTML CSS JS )
-  + :nerd_face: https://hcw0915.github.io/09_FE-bilibili/index.html
+  - :nerd_face: https://hcw0915.github.io/09_FE-bilibili/index.html
 
 ## :hammer_and_wrench: 目前技能
 
@@ -71,7 +73,8 @@ disqus: hackmd
 ---
 
 ## 其他
->非本科生轉職軟體工程師  侯承緯 
+
+> 非本科生轉職軟體工程師 侯承緯
 
 <!-- 從7月開始，開始了 <聯成 x meet.jobs> 班級，
 原本3月初的 python基礎課 成了我在進入這個班級之前的唯一資本。
