@@ -79,10 +79,10 @@ title: '個人作品集、簡單履歷'
   <img alt="GI" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
   <img alt="MEDIUM" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   <img alt="NOTION" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
-
 </div>
 - 了解 git 單人作業、協作流程
 - 接觸關聯式資料庫(SQLite、MySQL)
+medium: https://medium.com/@love233031
 
 ---
 
