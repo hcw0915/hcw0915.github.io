@@ -74,11 +74,11 @@ title: '個人作品集、簡單履歷'
 > 其他 :brain:
 
 <div>
-  <img alt="VSCODE" src=" https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+  <img alt="VSCODE" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
   <img alt="GITHUB" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   <img alt="GI" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="MEDIUM" src=" https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
-  <img alt="NOTION" src=" https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img alt="MEDIUM" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
+  <img alt="NOTION" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 
 </div>
 - 了解 git 單人作業、協作流程
