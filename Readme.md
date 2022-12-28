@@ -75,6 +75,7 @@ title: '個人作品集、簡單履歷'
 ## 其他
 
 > 非本科生轉職軟體工程師 侯承緯
+> https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white
 
 <!-- 從7月開始，開始了 <聯成 x meet.jobs> 班級，
 原本3月初的 python基礎課 成了我在進入這個班級之前的唯一資本。
